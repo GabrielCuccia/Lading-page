@@ -32,9 +32,11 @@
 
 }
 .nav-bar__list{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     list-style: none;
-    justify-content: space-around;
+    
+    
     
     
 }
@@ -42,6 +44,9 @@
     padding: 20px;
     font-size: 0.9em;
     font-weight: 500;
+    
+    
+    
     
     
 }
