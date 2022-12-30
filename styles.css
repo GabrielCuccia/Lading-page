@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway:wght@400;500;700&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;500;700&display=swap');*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 .main-container{
     width: 450px;
-    margin: auto;
+    margin: 0px auto;
 }
 :root{
     --Very-Dark-Blue: hsl(243, 87%, 12%);
@@ -51,6 +50,7 @@
     
 }
 .header{
+    margin-bottom: 130px;
     
 }
 .header__illustration{
@@ -107,10 +107,114 @@
     
 }
 .first-section__curve{
-    width: 100vw
+    width: 100%;
+    position: absolute;
+    top: -55px;
+    
+    
     
     
 }
 .first-section{
-    background-color: var(--);
+    background-color: var(--Light-Grayish-Blue);
+    position: relative;
+    height: 1000px;
+    
+    
+}
+.img-container{
+    margin-top: 100px;
+}
+.first-section__illustration{
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 50px;
+
+    
+}
+.first-section__title{
+    text-align: center;
+    font-family: 'Open-sans', sans-serif;
+    color: var(--Very-Dark-Blue);
+    font-size: 1.2em;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.first-section__parraf{
+    font-family: 'Open-sans', sans-serif;
+    margin-bottom: 15px;
+    color: var(--Desaturated-Blue);
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 21px
+}
+.first-section__see-how{
+    font-family: 'Open-sans', sans-serif;
+    color: var(--Moderate-Cyan);
+    text-decoration: none;
+    
+    
+    
+}
+.first-section__see-how-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 40px 0px;
+   
+}
+.first-section__see-how--bar{
+    background-color: var(--Moderate-Cyan);
+    width: 165px;
+    height: 1.5px;
+    margin-top: 5px;
+}
+.first-section__see-how img{
+    width: 19px;
+    vertical-align: middle;   
+}
+.card{
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Open-sans', sans-serif;
+    font-size: 0.8em;
+    color: var(--Very-Dark-Blue);
+    line-height: 21px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.16);
+-moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.16);
+box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.16);
+
+    
+}
+.card__person{
+    display: flex;
+    margin-top: 15px;
+    
+}
+.card__person__photo{
+    width: 35px;
+    border-radius: 50%;
+    height: 35px;
+    object-fit: cover;
+    
+}
+.card__person__name-container{
+    margin-left: 10px;
+}
+.card__person__name-container__name{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+    
+
+}
+.card__person__name-container__position{
+    font-size: 0.8em;
+    margin-top: -2px;
 }
