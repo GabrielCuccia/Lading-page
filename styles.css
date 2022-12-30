@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .main-container{
-    width: 470px;
+    width: 100vw;
     margin: 0px auto;
 }
 :root{
@@ -249,6 +249,7 @@ box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.16);
     height: 40px;
     margin-bottom: 10px;
     padding: 15px;
+    
 }
 .second-section__form__button{
     height: 40px;
@@ -257,7 +258,13 @@ box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.16);
     color: white;
     font-weight: 500;
     font-size: 0.9em;
-    
+    cursor: pointer;
 
     letter-spacing: 0.5px;
+}
+.footer{
+    background-color: var(--Very-Dark-Blue);
+}
+.footer__logo{
+    color: white;
 }
