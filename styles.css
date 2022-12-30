@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway:wght@400;500;700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.main-container{
+    width: 450px;
+    margin: auto;
 }
 :root{
     --Very-Dark-Blue: hsl(243, 87%, 12%);
@@ -17,17 +21,21 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
+    padding: 10px;
 
 }
 .nav-bar__logo{
-    width: 120px;
+    width: 130px;
     padding: 20px;
+    margin-top: -2px;
+    
 
 }
 .nav-bar__list{
     display: flex;
     list-style: none;
     justify-content: space-around;
+    
     
 }
 .nav-bar__list__item{
@@ -41,4 +49,68 @@
     text-decoration: none;
     color: var(--Desaturated-Blue);
     
+}
+.header{
+    
+}
+.header__illustration{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.header__title{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--Very-Dark-Blue);
+}
+.header__parraf{
+    margin: 0px 70px;
+    text-align: center;
+    font-family: 'Open-sans', sans-serif;
+    font-weight: 500;
+    color: var(--Very-Dark-Blue);
+    font-size: 1.1em;
+    margin-top: 30px;
+    line-height: 22px;
+    
+
+}
+.header__form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 60px;
+}
+.header__form__input{
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 15px;
+
+    
+}
+.header__form__button{
+    height: 40px;
+    border: none;
+    background-color: var(--Bright-Blue);
+    color: white;
+    font-weight: 500;
+    font-size: 0.9em;
+    box-shadow: 4px 6px 18px -2px rgba(0,0,0,0.21);
+-webkit-box-shadow: 4px 6px 18px -2px rgba(0,0,0,0.21);
+-moz-box-shadow: 4px 6px 18px -2px rgba(0,0,0,0.21);
+    letter-spacing: 1px;
+    
+}
+.first-section__curve{
+    width: 100vw
+    
+    
+}
+.first-section{
+    background-color: var(--);
 }
