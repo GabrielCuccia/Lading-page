@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .main-container{
-    width: 420px;
+    width: 470px;
     margin: 0px auto;
 }
 :root{
@@ -240,14 +240,14 @@ box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.16);
 .second-section__form{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 290px;
     margin: 30px auto;
     padding-bottom: 100px;
 
 }
 .second-section__form__input{
     height: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 15px;
 }
 .second-section__form__button{
@@ -259,5 +259,5 @@ box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.16);
     font-size: 0.9em;
     
 
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
