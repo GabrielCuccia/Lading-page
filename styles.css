@@ -15,6 +15,11 @@
     --Light-Grayish-Blue: hsl(240, 75%, 98%);
     --Light-Gray: hsl(0, 0%, 75%);
 }
+.attribution { font-size: 11px; text-align: center; color: white;
+font-family: sans-serif;
+margin-top: 50px; }
+.attribution a { color: hsl(228, 45%, 44%); 
+color: white;}
 
 .nav-bar{
     display: flex;
