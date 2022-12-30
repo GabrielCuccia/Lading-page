@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .main-container{
-    width: 450px;
+    width: 420px;
     margin: 0px auto;
 }
 :root{
@@ -217,4 +217,47 @@ box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.16);
 .card__person__name-container__position{
     font-size: 0.8em;
     margin-top: -2px;
+}
+.second-section{
+    background-color: var(--Desaturated-Blue);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.second-section__title{
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+
+    
+}
+.second-section__parraf{
+    text-align: center;
+    margin: 0px 50px;
+    line-height: 23px;
+
+
+}
+.second-section__form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 30px auto;
+    padding-bottom: 100px;
+
+}
+.second-section__form__input{
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.second-section__form__button{
+    height: 40px;
+    border: none;
+    background-color: var(--Bright-Blue);
+    color: white;
+    font-weight: 500;
+    font-size: 0.9em;
+    
+
+    letter-spacing: 1px;
 }
