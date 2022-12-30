@@ -21,6 +21,7 @@
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
     padding: 10px;
+    max-width: 490px;
 
 }
 .nav-bar__logo{
