@@ -234,6 +234,7 @@ box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.16);
     color: white;
     font-family: 'Raleway', sans-serif;
     width: 100vw;
+    margin: 0 auto;
     
 }
 .second-section__title{
@@ -279,6 +280,7 @@ box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.16);
     background-color: var(--Very-Dark-Blue);
     padding: 60px;
     width: 100vw;
+    margin: 0 auto;
 }
 .footer__logo{
     
